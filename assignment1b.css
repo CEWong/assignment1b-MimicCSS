@@ -1,0 +1,114 @@
+/* Carissa Wong*/
+/* 1/14/2015 */
+
+/* basic elements and fonts*/
+ body {
+	margin: 0;
+	padding: 0;
+	background:url(bck.jpg) top left no-repeat;
+}
+.page-wrapper {
+	background:url(bck2.jpg) 150px 0px no-repeat;
+	padding:0;
+	margin:0;
+	width: 960px;
+}
+p {
+	font-family: "Lucida Grande", Verdana, Tahoma, sans-serif;
+	font-size:.65em;
+	line-height:1.2em;
+	margin:.5em;
+	text-align:justify;
+}
+h3 {
+	font-family: "Lucida Grande", Verdana, Tahoma, sans-serif;
+	line-height:1em;
+	margin:2px 0 2px 0;
+	font-size:1em;
+	font-weight:lighter;
+}
+a:link {
+	font-family: "Lucida Grande", Verdana, Tahoma, sans-serif;
+	color:black;
+	font-weight:bold;
+}
+a:visted {
+	font-family: "Lucida Grande", Verdana, Tahoma, sans-serif;
+	color:black;
+	font-weight:bold;
+}
+a :hover, a:focus, a:active {
+	font-family: "Lucida Grande", Verdana, Tahoma, sans-serif;
+	color:black;
+	font-weight:bold;
+	text-decoration: underline;
+}
+
+/*Headers*/
+.intro header h1 {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background:url(title2.jpg) no-repeat top;
+	height:90px;
+	width:150px;
+	margin:0;
+	margin-left:275px;
+}
+ .intro header h2 {
+	 display:none;
+}
+
+/*Columns*/
+.preamble, .summary, .main.supporting {
+	width: 400px;
+	padding: 0 0 0 150px;
+}
+.preamble h3, .main.supporting h3 {
+	background:url(piuma.gif) left top no-repeat;
+	padding-left:32px;
+	padding-top:5px;
+}
+
+/*Footer*/
+footer {
+	width:400px;
+	margin: 0 auto;
+	text-align:center;
+	padding: 10px 0;
+}
+footer a {
+	text-decoration:none;
+	padding:5px 12px;
+	font-size:.65em;
+}
+footer a:hover {
+	background:url(svirgolata.gif) left bottom no-repeat;
+}
+
+/*sidebar*/
+aside.sidebar {
+	width:170px;
+	position:absolute;
+	top:160px;
+	left: 600px;
+	text-align:right;
+}
+.sidebar ul {
+	list-style:none;
+	font-size:.62em;
+	line-height:1.3em;
+	padding-left: 0;
+	margin-top:1px;
+}
+.sidebar ul li a:link {
+	text-decoration:none;
+	font-weight:normal;
+}
+.sidebar ul li a:visted {
+	text-decoration:none;
+	font-weight:bold;
+}
+.sidebar ul li a:hover {
+	background:#CCC;
+}
